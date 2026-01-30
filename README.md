@@ -1,6 +1,6 @@
 # Skybet
 
-## 🏗️ Project Structure (Monorepo like flightInsurance)
+## 🏗️ Project Structure 
 
 ```
 aleo-betting-app/
@@ -8,7 +8,7 @@ aleo-betting-app/
 │   ├── contracts/          # Leo smart contracts
 │   │   └── src/
 │   │       └── main.leo    # Simple playground-ready contract
-│   ├── backend/           # Express.js API (like oasis)
+│   ├── backend/           # Express.js API
 │   │   ├── index.js
 │   │   └── package.json
 │   └── frontend/          # React app (like web)
