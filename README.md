@@ -1,4 +1,4 @@
-# Flight Betting App - Aleo Implementation
+# Skybet
 
 ## 🏗️ Project Structure (Monorepo like flightInsurance)
 
