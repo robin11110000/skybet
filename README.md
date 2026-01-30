@@ -83,17 +83,3 @@ npm run frontend:dev
 - ✅ **Flight outcome betting** - ontime/delayed/cancelled
 - ✅ **Oracle resolution** - Admin can set actual outcomes
 
-## 🎯 Next Steps
-
-1. **Test on Playground first** - Validate all functions work
-2. **Add Discord bot integration** - /coolbettingapp commands
-3. **Enhance backend** - Real flight data APIs
-4. **Build frontend** - React app with Aleo wallet
-
-## 📚 References
-
-Based on original flightInsurance structure:
-- `apps/contracts` - Smart contracts (Leo instead of Solidity)
-- `apps/backend` - Express.js API (like oasis)  
-- `apps/frontend` - React app (like web)
-- Monorepo with pnpm workspaces
