@@ -1,0 +1,25 @@
+{
+  "name": "flight-betting-aleo",
+  "version": "0.1.0",
+  "description": "Monorepo for flight betting on Aleo",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "clean": "turbo clean",
+    "contract:build": "cd apps/contracts && leo build",
+    "contract:deploy": "cd apps/contracts && leo deploy",
+    "backend:dev": "cd apps/backend && npm run dev",
+    "frontend:dev": "cd apps/frontend && npm run dev"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "turbo": "^1.10.16",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.10.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
