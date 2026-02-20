@@ -253,7 +253,7 @@ function showBettingResult(
     console.log(`\nYou Won!!! :)`);
     console.log(`🥳🥳🥳🥳🥳🥳`);
     let winning;
-    /* Commission baccarat will payout 0.95 for betting on banker*/
+    /* Commission poker will payout 0.95 for betting on banker*/
     /* Betting Player get full payout */
     /* Betting Tie will get 8 times payout */
     if (usersChoice == "banker") winning = usersBettingAmount * 0.95;

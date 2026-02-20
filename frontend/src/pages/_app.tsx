@@ -9,9 +9,9 @@ import { MainDataProvider } from "@/hooks/MainDataProvider";
 export const theme = extendTheme({
   colors: {
     brand: {
-      zakkarat_background: "#131312",
-      zakkarat_white: "#f5f5f5",
-      zakkarat_black: "#121212",
+      prizepoker_background: "#131312",
+      prizepoker_white: "#f5f5f5",
+      prizepoker_black: "#121212",
     },
   },
   fonts: {

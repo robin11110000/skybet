@@ -25,14 +25,14 @@ const casino = () => {
                 templateColumns={"repeat(2, 1fr)"}
                 gap={10}
                 p={10}
-                bg={"brand.zakkarat_background"}
-                color={"brand.zakkarat_white"}
+                bg={"brand.prizepoker_background"}
+                color={"brand.prizepoker_white"}
             >
                 <GridItem
                     rowSpan={2}
                     colSpan={2}
                     border={"3px solid"}
-                    borderColor={"brand.zakkarat_white"}
+                    borderColor={"brand.prizepoker_white"}
                     borderRadius={"lg"}
                     w={"100%"}
                 >
@@ -44,7 +44,7 @@ const casino = () => {
                     rowSpan={3}
                     colSpan={1}
                     border={"3px solid"}
-                    borderColor={"brand.zakkarat_white"}
+                    borderColor={"brand.prizepoker_white"}
                     borderRadius={"lg"}
                 >
                     <Center h={"100%"}>
@@ -55,7 +55,7 @@ const casino = () => {
                     rowSpan={3}
                     colSpan={1}
                     border={"3px solid"}
-                    borderColor={"brand.zakkarat_white"}
+                    borderColor={"brand.prizepoker_white"}
                     borderRadius={"lg"}
                     overflowY={"scroll"}
                 >
@@ -67,7 +67,7 @@ const casino = () => {
                     rowSpan={4}
                     colSpan={1}
                     border={"3px solid"}
-                    borderColor={"brand.zakkarat_white"}
+                    borderColor={"brand.prizepoker_white"}
                     borderRadius={"lg"}
                     overflowY={"scroll"}
                 >
@@ -81,7 +81,7 @@ const casino = () => {
                     rowSpan={4}
                     colSpan={1}
                     border={"3px solid"}
-                    borderColor={"brand.zakkarat_white"}
+                    borderColor={"brand.prizepoker_white"}
                     borderRadius={"lg"}
                     overflowY={"scroll"}
                 >

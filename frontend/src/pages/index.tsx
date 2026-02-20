@@ -14,12 +14,12 @@ export default function Home() {
     const { mintTxn } = useMainDataContext();
     return (
         <MainComponent>
-            <Box h={"100vh"} p={10} bg={"brand.zakkarat_background"} color={"brand.zakkarat_white"}>
+            <Box h={"100vh"} p={10} bg={"brand.prizepoker_background"} color={"brand.prizepoker_white"}>
                 <Grid h={"100%"} templateRows={"repeat(5, 1fr)"} templateColumns={"repeat(6, 1fr)"} gap={6}>
                     <GridItem rowSpan={1} colSpan={6}>
                         <Center h={"100%"}>
                             <Heading size={"4xl"} fontWeight={500}>
-                                Zakkarat
+                                PrizePoker
                             </Heading>
                         </Center>
                     </GridItem>
@@ -27,7 +27,7 @@ export default function Home() {
                         rowSpan={1}
                         colSpan={6}
                         border={"3px solid"}
-                        borderColor={"brand.zakkarat_white"}
+                        borderColor={"brand.prizepoker_white"}
                         borderRadius={"lg"}
                         display={"flex"}
                         justifyContent={"space-around"}
@@ -39,11 +39,11 @@ export default function Home() {
                         rowSpan={3}
                         colSpan={3}
                         border={"3px solid"}
-                        borderColor={"brand.zakkarat_white"}
+                        borderColor={"brand.prizepoker_white"}
                         borderRadius={"lg"}
                         overflowY={"scroll"}
                         padding={5}
-                        color={"brand.zakkarat_black"}
+                        color={"brand.prizepoker_black"}
                     >
                         <TableList />
                     </GridItem>
@@ -51,7 +51,7 @@ export default function Home() {
                         rowSpan={3}
                         colSpan={3}
                         border={"3px solid"}
-                        borderColor={"brand.zakkarat_white"}
+                        borderColor={"brand.prizepoker_white"}
                         borderRadius={"lg"}
                         backgroundImage={"/baccarat-table.jpg"}
                         backgroundPosition="center"

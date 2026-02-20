@@ -5,7 +5,7 @@ import {
   NetworkRecordProvider,
   AleoKeyProvider,
 } from "@aleohq/sdk";
-import { zakkarat } from "./zakkarat";
+import { prizepoker } from "./prizepoker";
 import { BetOnT } from "@/hooks/MainDataProvider";
 
 export async function makeBet(
@@ -38,7 +38,7 @@ export async function makeBet(
 
   try {
     const tx_id = await programManager.executeOffline(
-      zakkarat,
+      prizepoker,
       "make_bet",
       [playerChips, `${choice}u8`, `${playerBetAmount}u64`, `${uuid}u128`],
       false

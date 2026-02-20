@@ -1,4 +1,4 @@
-# zakkarat.aleo
+# prizepoker.aleo
 
 ## Build Guide
 

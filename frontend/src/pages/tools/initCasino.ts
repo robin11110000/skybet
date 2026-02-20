@@ -1,5 +1,5 @@
 import { Account, ProgramManager, AleoNetworkClient, NetworkRecordProvider, AleoKeyProvider } from "@aleohq/sdk";
-import { zakkarat } from "./zakkarat";
+import { prizepoker } from "./prizepoker";
 import Deck from "../../logic/deck-class";
 
 export async function initCasino(userPrivateKey: string) {
@@ -35,7 +35,7 @@ export async function initCasino(userPrivateKey: string) {
     // "    input r3 as u128.private;\n" +
     try {
         const tx_id = await programManager.executeOffline(
-            zakkarat,
+            prizepoker,
             "initialize_decks",
             [playerHands, bankerHands, lastTwoHands, randomUuid],
             false

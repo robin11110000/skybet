@@ -26,8 +26,8 @@ const {
 /* Game Functions */
 /********************/
 
-async function baccarat() {
-  console.log("\n<*** Initializing New Baccarat Game ***>\n");
+async function poker() {
+  console.log("\n<*** Initializing New Poker Game ***>\n");
 
   const usersCredit = 100_000;
   console.log(`\nUser's credit: ${usersCredit}\n`);
@@ -83,10 +83,10 @@ async function baccarat() {
   rl.close();
 }
 
-module.exports = baccarat;
+module.exports = poker;
 
 async function main() {
-  baccarat();
+  poker();
 }
 
 main();

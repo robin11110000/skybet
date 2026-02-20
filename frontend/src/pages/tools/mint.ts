@@ -1,5 +1,5 @@
 import { Account, ProgramManager, AleoNetworkClient, NetworkRecordProvider, AleoKeyProvider } from "@aleohq/sdk";
-import { zakkarat } from "./zakkarat";
+import { prizepoker } from "./prizepoker";
 
 export async function mint(userPrivateKey: string) {
     const myAccount = new Account({
@@ -26,7 +26,7 @@ export async function mint(userPrivateKey: string) {
     console.log(keyProvider);
 
     try {
-        const tx_id = await programManager.executeOffline(zakkarat, "player_mint", ["1000u64"], false);
+        const tx_id = await programManager.executeOffline(prizepoker, "player_mint", ["1000u64"], false);
         console.log(tx_id.getOutputs());
         return tx_id.getOutputs();
     } catch (e) {

@@ -1,5 +1,5 @@
-// The 'zakkarat' program.
-program zakkarat.aleo {
+// The 'prizepoker' program.
+program prizepoker.aleo {
     mapping account:address  => u64;
     mapping hashes:field  => field;
     record Token {

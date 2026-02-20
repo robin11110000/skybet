@@ -1,4 +1,4 @@
-export const zakkarat =
+export const prizepoker =
   "program zakk.aleo;\n" +
   "\n" +
   "struct Hands:\n" +

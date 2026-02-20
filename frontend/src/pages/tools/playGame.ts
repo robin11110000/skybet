@@ -5,7 +5,7 @@ import {
   NetworkRecordProvider,
   AleoKeyProvider,
 } from "@aleohq/sdk";
-import { zakkarat } from "./zakkarat";
+import { prizepoker } from "./prizepoker";
 
 export async function playGame(casinoDecks: string, bet: string) {
   const myAccount = new Account({
@@ -27,7 +27,7 @@ export async function playGame(casinoDecks: string, bet: string) {
 
   try {
     const tx_id = await programManager.executeOffline(
-      zakkarat,
+      prizepoker,
       "play_game",
       [casinoDecks, bet],
       false
